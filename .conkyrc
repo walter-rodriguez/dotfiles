@@ -1,0 +1,9 @@
+conky.config = {
+    out_to_console = true,
+    out_to_x = false,
+    background = false,
+    update_interval = 2.0,
+    total_run_times = 0,
+    use_spacer = none,
+}
+conky.text = [[ [BAT:${battery_percent BAT1}%] [CPU:${cpu}%] [DD:${fs_used_perc /}%] [HM:${fs_used_perc /home}%] [RAM:$mem/$memmax] [KB:${exec /home/walter/.dwm/caps.sh}] [${time %A %d/%b/%Y %I:%M %p}] ]]
