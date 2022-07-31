@@ -1,6 +1,6 @@
 # Mis archivos de configuración (dotfiles)
 
-*Basados en el post [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)*
+*Basado en el post [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)*
 
 Esta Configuración se basa en el método de usar un repositorio **Bare** ([Mayor Info](https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/))
 la cual evita usar herramientas de terceros (GNU Stow, Chezmoi, Dotbot, Homesick, ...) para utilizar solamente Git y una
